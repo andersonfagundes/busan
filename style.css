@@ -2,3 +2,37 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  font-family: 'Open Sans', sans-serif;
+  --text-headline: #e1624f;
+  --text-primary: #1b1b1b;
+}
+
+#container {
+  width: 1120px;
+  height: 3054px;
+  margin: 88px auto 137px;
+}
+
+header {
+  width: 1120px;
+  height: 79px;
+  margin: 88px auto 80px;
+}
+
+header p {
+  color: var(--text-headline);
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+header h1 {
+  color: var(--text-primary);
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+}

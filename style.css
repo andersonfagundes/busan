@@ -7,12 +7,15 @@
   font-family: 'Open Sans', sans-serif;
   --text-headline: #e1624f;
   --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #e1624f;
 }
 
 #container {
   width: 1120px;
   height: 3054px;
   margin: 88px auto 137px;
+  box-sizing: border-box;
 }
 
 header {
@@ -35,4 +38,20 @@ header h1 {
   font-size: 36px;
   font-weight: bold;
   text-align: left;
+}
+
+#description {
+  width: 1120px;
+  height: 729px;
+}
+
+#description img {
+  border-radius: 28px;
+  margin-bottom: 24px;
+}
+
+#description p {
+  color: var(--text-secondary);
+  font-style: italic;
+  text-align: center;
 }

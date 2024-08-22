@@ -9,6 +9,11 @@
   --text-primary: #1b1b1b;
   --text-secondary: #333333;
   --text-tertiary: #e1624f;
+  --border-primary: #d9d9d9;
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
 }
 
 #container {
@@ -21,7 +26,7 @@
 header {
   width: 1120px;
   height: 79px;
-  margin: 88px auto 80px;
+  margin: 88px auto 40px;
 }
 
 header p {
@@ -43,6 +48,7 @@ header h1 {
 #description {
   width: 1120px;
   height: 729px;
+  margin-bottom: 40px;
 }
 
 #description img {
@@ -54,4 +60,111 @@ header h1 {
   color: var(--text-secondary);
   font-style: italic;
   text-align: center;
+}
+
+#content-list {
+  width: 1120px;
+  height: 2020px;
+  border-top: 1px solid var(--border-primary);
+}
+
+#title-list {
+  margin: 64px 0;
+}
+
+#title-list span {
+  color: var(--text-headline);
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#title-list h2 {
+  color: var(--text-primary);
+  text-align: left;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#title-list p {
+  color: var(--text-secondary);
+  text-align: left;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+#list {
+  width: 1120px;
+  height: 1728px;
+}
+
+#card-travel {
+  width: 1120px;
+  height: 522px;
+  margin-bottom: 48px;
+}
+
+#card-travel:last-child {
+  margin-bottom: 0px;
+}
+
+#card-travel img {
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+#content-card {
+  width: 1120px;
+  height: 152px;
+}
+
+#content-card h3 {
+  color: var(--text-primary);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#content-card p {
+  color: var(--text-secondary);
+  text-align: left;
+  font-size: 16px;
+  font-weight: regular;
+}
+
+#content-card p + p {
+  margin-top: 25px;
+  color: var(--text-secondary);
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#content-card ul {
+  color: var(--accent-blue);
+  text-align: left;
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+ul li + li {
+  color: var(--accent-pink);
+}
+
+ul li + li + li {
+  color: var(--accent-orange);
+}
+
+#divisor {
+  border: 1px solid var(--border-primary);
+  margin: 40px 0px;
+  display: block;
+}
+
+#container p {
+  color: var(--text-secondary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: regular;
 }

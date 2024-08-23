@@ -6,16 +6,16 @@ This is a webpage with information about Busan, the second largest city in Korea
 
 ## Tecnologies
 
-This project was developed using cutting edge front-end technologies.
+This project was developed using front-end technologies.
 
-- [ReactJS](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
+- [HTML5]
+- [CSS3]
 
 ## 💻 Getting started
 
 ### Requirements
 
-- You need to install [Node.js](https://nodejs.org/en/download/) to run this project.
+- You need a browser to run this project.
 
 **Clone the project and access the folder**
 

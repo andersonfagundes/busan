@@ -10,8 +10,8 @@ This is a webpage with information about Busan, the second largest city in Korea
 
 This project was developed using front-end technologies.
 
-- [HTML5]
-- [CSS3]
+- HTML5
+- CSS3
 
 ## 💻 Getting started
 

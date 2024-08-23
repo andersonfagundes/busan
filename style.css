@@ -29,7 +29,7 @@ header {
   margin: 88px auto 40px;
 }
 
-header p {
+#container header p {
   color: var(--text-headline);
   font-weight: bold;
   font-size: 16px;

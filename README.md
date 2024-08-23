@@ -1,3 +1,5 @@
+![img-busan](https://github.com/user-attachments/assets/64dad8f4-3ee2-40d1-8401-effb31058518)
+
 ## 🚀 About this project
 
 This is a webpage with information about Busan, the second largest city in Korea.
